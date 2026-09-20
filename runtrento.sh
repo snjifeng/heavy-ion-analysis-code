@@ -32,7 +32,7 @@ if [ ! -d "${OUTPUT_DIR}" ]; then
 fi
 
 # 定义基础 trento 命令
-TRENTO_CMD="trento ${INPUT_HDF5_PATH} ${INPUT_HDF5_PATH} 1000000 -n 20 -x 7.09 -w 0.4 -m 6 -p 0.0 -k 100000 -v 0.4"
+TRENTO_CMD="trento ${INPUT_HDF5_PATH} ${INPUT_HDF5_PATH} 1000000 -n 20 -x 7.09 -w 0.4 -m 6 -p 0.0 -k 1 -v 0.4"
 
 # ==========================================
 # 阶段 1: 生成 .dat 文件
